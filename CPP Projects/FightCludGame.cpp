@@ -87,7 +87,7 @@ map<string, int> monsterSpells = {
 };
     Player user = {100, UserSpells};
     Player monster = {100, monsterSpells};
-    cout<<"\n-> Welcome To THE FIGHT CLUD\n";
+    cout<<"\n|| WELCOME TO THE FIGHT CLUD ||\n";
     cout<<"-> The first rule of the FIGHT CLUD: You Don't Talk About FIGHT CLUD!\n";
     cout<<"-> Remember You can use one spell only once.\n";
     cout<<"-> Rules: You win if you defeat the monster or you lose if monster health is grater than you or equal to your health. Good Luck!\n";
