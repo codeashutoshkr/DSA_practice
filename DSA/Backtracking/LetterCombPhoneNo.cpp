@@ -42,7 +42,7 @@ void backtrack(const string& digits, unordered_map<char,string>& telephoneComb, 
         return;
     }
 
-    string letters = telephoneComb.at(index);
+    string letters = telephoneComb.at(digits[index]);
     for(auto letter : letters){
         backtrack(digits, telephoneComb, ans, comb+letter, index+1);
     }
